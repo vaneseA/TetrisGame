@@ -8,25 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		A860F3372789F9DD008DBB6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A860F3362789F9DD008DBB6A /* AppDelegate.swift */; };
-		A860F3392789F9DD008DBB6A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A860F3382789F9DD008DBB6A /* GameScene.sks */; };
-		A860F33B2789F9DD008DBB6A /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A860F33A2789F9DD008DBB6A /* Actions.sks */; };
 		A860F33D2789F9DD008DBB6A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A860F33C2789F9DD008DBB6A /* GameScene.swift */; };
 		A860F33F2789F9DD008DBB6A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A860F33E2789F9DD008DBB6A /* GameViewController.swift */; };
 		A860F3422789F9DD008DBB6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A860F3402789F9DD008DBB6A /* Main.storyboard */; };
 		A860F3442789F9DE008DBB6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A860F3432789F9DE008DBB6A /* Assets.xcassets */; };
 		A860F3472789F9DE008DBB6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A860F3452789F9DE008DBB6A /* LaunchScreen.storyboard */; };
+		A860F34F2789FBF9008DBB6A /* BackGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = A860F34E2789FBF9008DBB6A /* BackGround.swift */; };
+		A860F3532789FDBD008DBB6A /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = A860F3522789FDBD008DBB6A /* Variables.swift */; };
+		A860F3552789FE71008DBB6A /* Brick.swift in Sources */ = {isa = PBXBuildFile; fileRef = A860F3542789FE71008DBB6A /* Brick.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A860F3332789F9DD008DBB6A /* TetrisGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TetrisGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A860F3362789F9DD008DBB6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A860F3382789F9DD008DBB6A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		A860F33A2789F9DD008DBB6A /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		A860F33C2789F9DD008DBB6A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		A860F33E2789F9DD008DBB6A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		A860F3412789F9DD008DBB6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A860F3432789F9DE008DBB6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A860F3462789F9DE008DBB6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A860F34E2789FBF9008DBB6A /* BackGround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackGround.swift; sourceTree = "<group>"; };
+		A860F3522789FDBD008DBB6A /* Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
+		A860F3542789FE71008DBB6A /* Brick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brick.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +61,9 @@
 		A860F3352789F9DD008DBB6A /* TetrisGame */ = {
 			isa = PBXGroup;
 			children = (
+				A860F3512789FDA9008DBB6A /* Variables */,
+				A860F34D2789FBB7008DBB6A /* Background */,
 				A860F3362789F9DD008DBB6A /* AppDelegate.swift */,
-				A860F3382789F9DD008DBB6A /* GameScene.sks */,
-				A860F33A2789F9DD008DBB6A /* Actions.sks */,
 				A860F33C2789F9DD008DBB6A /* GameScene.swift */,
 				A860F33E2789F9DD008DBB6A /* GameViewController.swift */,
 				A860F3402789F9DD008DBB6A /* Main.storyboard */,
@@ -69,6 +71,23 @@
 				A860F3452789F9DE008DBB6A /* LaunchScreen.storyboard */,
 			);
 			path = TetrisGame;
+			sourceTree = "<group>";
+		};
+		A860F34D2789FBB7008DBB6A /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				A860F34E2789FBF9008DBB6A /* BackGround.swift */,
+				A860F3542789FE71008DBB6A /* Brick.swift */,
+			);
+			path = Background;
+			sourceTree = "<group>";
+		};
+		A860F3512789FDA9008DBB6A /* Variables */ = {
+			isa = PBXGroup;
+			children = (
+				A860F3522789FDBD008DBB6A /* Variables.swift */,
+			);
+			path = Variables;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,10 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A860F3422789F9DD008DBB6A /* Main.storyboard in Resources */,
-				A860F3392789F9DD008DBB6A /* GameScene.sks in Resources */,
 				A860F3442789F9DE008DBB6A /* Assets.xcassets in Resources */,
 				A860F3472789F9DE008DBB6A /* LaunchScreen.storyboard in Resources */,
-				A860F33B2789F9DD008DBB6A /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +164,9 @@
 				A860F33D2789F9DD008DBB6A /* GameScene.swift in Sources */,
 				A860F33F2789F9DD008DBB6A /* GameViewController.swift in Sources */,
 				A860F3372789F9DD008DBB6A /* AppDelegate.swift in Sources */,
+				A860F34F2789FBF9008DBB6A /* BackGround.swift in Sources */,
+				A860F3532789FDBD008DBB6A /* Variables.swift in Sources */,
+				A860F3552789FE71008DBB6A /* Brick.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +321,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -329,6 +350,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
