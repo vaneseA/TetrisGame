@@ -16,6 +16,7 @@
 		A860F34F2789FBF9008DBB6A /* BackGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = A860F34E2789FBF9008DBB6A /* BackGround.swift */; };
 		A860F3532789FDBD008DBB6A /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = A860F3522789FDBD008DBB6A /* Variables.swift */; };
 		A860F3552789FE71008DBB6A /* Brick.swift in Sources */ = {isa = PBXBuildFile; fileRef = A860F3542789FE71008DBB6A /* Brick.swift */; };
+		A860F357278C34FA008DBB6A /* BrickGenertor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A860F356278C34FA008DBB6A /* BrickGenertor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		A860F34E2789FBF9008DBB6A /* BackGround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackGround.swift; sourceTree = "<group>"; };
 		A860F3522789FDBD008DBB6A /* Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
 		A860F3542789FE71008DBB6A /* Brick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brick.swift; sourceTree = "<group>"; };
+		A860F356278C34FA008DBB6A /* BrickGenertor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickGenertor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			children = (
 				A860F34E2789FBF9008DBB6A /* BackGround.swift */,
 				A860F3542789FE71008DBB6A /* Brick.swift */,
+				A860F356278C34FA008DBB6A /* BrickGenertor.swift */,
 			);
 			path = Background;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				A860F33F2789F9DD008DBB6A /* GameViewController.swift in Sources */,
 				A860F3372789F9DD008DBB6A /* AppDelegate.swift in Sources */,
 				A860F34F2789FBF9008DBB6A /* BackGround.swift in Sources */,
+				A860F357278C34FA008DBB6A /* BrickGenertor.swift in Sources */,
 				A860F3532789FDBD008DBB6A /* Variables.swift in Sources */,
 				A860F3552789FE71008DBB6A /* Brick.swift in Sources */,
 			);
