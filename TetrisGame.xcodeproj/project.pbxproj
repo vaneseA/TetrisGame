@@ -63,6 +63,7 @@
 		A860F3352789F9DD008DBB6A /* TetrisGame */ = {
 			isa = PBXGroup;
 			children = (
+				A860F358278DDF98008DBB6A /* Functions */,
 				A860F3512789FDA9008DBB6A /* Variables */,
 				A860F34D2789FBB7008DBB6A /* Background */,
 				A860F3362789F9DD008DBB6A /* AppDelegate.swift */,
@@ -91,6 +92,13 @@
 				A860F3522789FDBD008DBB6A /* Variables.swift */,
 			);
 			path = Variables;
+			sourceTree = "<group>";
+		};
+		A860F358278DDF98008DBB6A /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Functions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

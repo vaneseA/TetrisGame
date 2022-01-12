@@ -12,9 +12,8 @@ class GameScene: SKScene {
 
     override func didMove(to view: SKView) {
         Variables.scene = self
-        let bg = BackGround()
-        let generator = BrickGenerator() 
-        checkBrick()
+        _ = BackGround()
+        _ = BrickGenerator()
     }
     
     func checkBrick(){
@@ -24,3 +23,4 @@ class GameScene: SKScene {
         }
     }
 }
+//ㅁㄴㅇㄹㄴㅇㄹ
