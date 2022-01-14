@@ -14,6 +14,9 @@ class GameScene: SKScene {
         Variables.scene = self
         _ = BackGround()
         _ = BrickGenerator()
+   
+        let leftButton = LeftButton()
+        
     }
     
     func checkBrick(){

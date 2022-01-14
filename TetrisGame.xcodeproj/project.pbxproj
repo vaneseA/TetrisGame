@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A84A0E4C2791C33D00120E45 /* LeftButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A0E4B2791C33D00120E45 /* LeftButton.swift */; };
 		A860F3372789F9DD008DBB6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A860F3362789F9DD008DBB6A /* AppDelegate.swift */; };
 		A860F33D2789F9DD008DBB6A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A860F33C2789F9DD008DBB6A /* GameScene.swift */; };
 		A860F33F2789F9DD008DBB6A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A860F33E2789F9DD008DBB6A /* GameViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A84A0E4B2791C33D00120E45 /* LeftButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftButton.swift; sourceTree = "<group>"; };
 		A860F3332789F9DD008DBB6A /* TetrisGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TetrisGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A860F3362789F9DD008DBB6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A860F33C2789F9DD008DBB6A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		A860F358278DDF98008DBB6A /* Functions */ = {
 			isa = PBXGroup;
 			children = (
+				A84A0E4B2791C33D00120E45 /* LeftButton.swift */,
 			);
 			path = Functions;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			files = (
 				A860F33D2789F9DD008DBB6A /* GameScene.swift in Sources */,
 				A860F33F2789F9DD008DBB6A /* GameViewController.swift in Sources */,
+				A84A0E4C2791C33D00120E45 /* LeftButton.swift in Sources */,
 				A860F3372789F9DD008DBB6A /* AppDelegate.swift in Sources */,
 				A860F34F2789FBF9008DBB6A /* BackGround.swift in Sources */,
 				A860F357278C34FA008DBB6A /* BrickGenertor.swift in Sources */,
