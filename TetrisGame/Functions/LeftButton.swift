@@ -17,4 +17,8 @@ class LeftButton {
         btn.position = CGPoint(x: 50, y: -Int(Variables.scene.frame.height) + 50)
         Variables.scene.addChild(btn)
     }
+    
+    func brickMoveLeft(){
+        print("Left Button")
+    }
 }
