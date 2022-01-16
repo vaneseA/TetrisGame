@@ -8,6 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		A84A0E4C2791C33D00120E45 /* LeftButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A0E4B2791C33D00120E45 /* LeftButton.swift */; };
+		A84A0E4E27934A9900120E45 /* RightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A0E4D27934A9900120E45 /* RightButton.swift */; };
+		A84A0E5027935B5500120E45 /* RotationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A0E4F27935B5500120E45 /* RotationButton.swift */; };
+		A84A0E522793663C00120E45 /* DownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A0E512793663C00120E45 /* DownButton.swift */; };
+		A84A0E55279375E000120E45 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A0E54279375E000120E45 /* GameOver.swift */; };
+		A84A0E572793760400120E45 /* GameOver.sks in Resources */ = {isa = PBXBuildFile; fileRef = A84A0E562793760400120E45 /* GameOver.sks */; };
+		A84A0E5927937A9500120E45 /* StopButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A0E5827937A9500120E45 /* StopButton.swift */; };
+		A84A0E5B2793831900120E45 /* NextBricks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A0E5A2793831900120E45 /* NextBricks.swift */; };
+		A84A0E5D2793892900120E45 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A0E5C2793892900120E45 /* Sounds.swift */; };
+		A84A0E64279389C100120E45 /* delete.wav in Resources */ = {isa = PBXBuildFile; fileRef = A84A0E5F279389C100120E45 /* delete.wav */; };
+		A84A0E65279389C100120E45 /* bg_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A84A0E60279389C100120E45 /* bg_sound.mp3 */; };
+		A84A0E66279389C100120E45 /* rotation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A84A0E61279389C100120E45 /* rotation.mp3 */; };
+		A84A0E67279389C100120E45 /* move.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A84A0E62279389C100120E45 /* move.mp3 */; };
+		A84A0E68279389C100120E45 /* down.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A84A0E63279389C100120E45 /* down.mp3 */; };
+		A84A0E6A27938E7300120E45 /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = A84A0E6927938E7300120E45 /* Fire.sks */; };
 		A860F3372789F9DD008DBB6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A860F3362789F9DD008DBB6A /* AppDelegate.swift */; };
 		A860F33D2789F9DD008DBB6A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A860F33C2789F9DD008DBB6A /* GameScene.swift */; };
 		A860F33F2789F9DD008DBB6A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A860F33E2789F9DD008DBB6A /* GameViewController.swift */; };
@@ -22,6 +36,20 @@
 
 /* Begin PBXFileReference section */
 		A84A0E4B2791C33D00120E45 /* LeftButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftButton.swift; sourceTree = "<group>"; };
+		A84A0E4D27934A9900120E45 /* RightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightButton.swift; sourceTree = "<group>"; };
+		A84A0E4F27935B5500120E45 /* RotationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationButton.swift; sourceTree = "<group>"; };
+		A84A0E512793663C00120E45 /* DownButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownButton.swift; sourceTree = "<group>"; };
+		A84A0E54279375E000120E45 /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		A84A0E562793760400120E45 /* GameOver.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOver.sks; sourceTree = "<group>"; };
+		A84A0E5827937A9500120E45 /* StopButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopButton.swift; sourceTree = "<group>"; };
+		A84A0E5A2793831900120E45 /* NextBricks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextBricks.swift; sourceTree = "<group>"; };
+		A84A0E5C2793892900120E45 /* Sounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
+		A84A0E5F279389C100120E45 /* delete.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = delete.wav; path = ../../../../../../Desktop/source/sound/delete.wav; sourceTree = "<group>"; };
+		A84A0E60279389C100120E45 /* bg_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bg_sound.mp3; path = ../../../../../../Desktop/source/sound/bg_sound.mp3; sourceTree = "<group>"; };
+		A84A0E61279389C100120E45 /* rotation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = rotation.mp3; path = ../../../../../../Desktop/source/sound/rotation.mp3; sourceTree = "<group>"; };
+		A84A0E62279389C100120E45 /* move.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = move.mp3; path = ../../../../../../Desktop/source/sound/move.mp3; sourceTree = "<group>"; };
+		A84A0E63279389C100120E45 /* down.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = down.mp3; path = ../../../../../../Desktop/source/sound/down.mp3; sourceTree = "<group>"; };
+		A84A0E6927938E7300120E45 /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
 		A860F3332789F9DD008DBB6A /* TetrisGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TetrisGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A860F3362789F9DD008DBB6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A860F33C2789F9DD008DBB6A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -46,6 +74,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A84A0E53279375B700120E45 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				A860F33C2789F9DD008DBB6A /* GameScene.swift */,
+				A84A0E54279375E000120E45 /* GameOver.swift */,
+				A84A0E562793760400120E45 /* GameOver.sks */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		A84A0E5E279389A400120E45 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A84A0E60279389C100120E45 /* bg_sound.mp3 */,
+				A84A0E5F279389C100120E45 /* delete.wav */,
+				A84A0E63279389C100120E45 /* down.mp3 */,
+				A84A0E62279389C100120E45 /* move.mp3 */,
+				A84A0E61279389C100120E45 /* rotation.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		A84A0E6B27938FC700120E45 /* Emitter */ = {
+			isa = PBXGroup;
+			children = (
+				A84A0E6927938E7300120E45 /* Fire.sks */,
+			);
+			path = Emitter;
+			sourceTree = "<group>";
+		};
 		A860F32A2789F9DD008DBB6A = {
 			isa = PBXGroup;
 			children = (
@@ -65,11 +123,13 @@
 		A860F3352789F9DD008DBB6A /* TetrisGame */ = {
 			isa = PBXGroup;
 			children = (
+				A84A0E6B27938FC700120E45 /* Emitter */,
+				A84A0E5E279389A400120E45 /* Sounds */,
+				A84A0E53279375B700120E45 /* Scene */,
 				A860F358278DDF98008DBB6A /* Functions */,
 				A860F3512789FDA9008DBB6A /* Variables */,
 				A860F34D2789FBB7008DBB6A /* Background */,
 				A860F3362789F9DD008DBB6A /* AppDelegate.swift */,
-				A860F33C2789F9DD008DBB6A /* GameScene.swift */,
 				A860F33E2789F9DD008DBB6A /* GameViewController.swift */,
 				A860F3402789F9DD008DBB6A /* Main.storyboard */,
 				A860F3432789F9DE008DBB6A /* Assets.xcassets */,
@@ -100,6 +160,12 @@
 			isa = PBXGroup;
 			children = (
 				A84A0E4B2791C33D00120E45 /* LeftButton.swift */,
+				A84A0E4D27934A9900120E45 /* RightButton.swift */,
+				A84A0E4F27935B5500120E45 /* RotationButton.swift */,
+				A84A0E512793663C00120E45 /* DownButton.swift */,
+				A84A0E5827937A9500120E45 /* StopButton.swift */,
+				A84A0E5A2793831900120E45 /* NextBricks.swift */,
+				A84A0E5C2793892900120E45 /* Sounds.swift */,
 			);
 			path = Functions;
 			sourceTree = "<group>";
@@ -163,7 +229,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A860F3422789F9DD008DBB6A /* Main.storyboard in Resources */,
+				A84A0E572793760400120E45 /* GameOver.sks in Resources */,
+				A84A0E68279389C100120E45 /* down.mp3 in Resources */,
+				A84A0E6A27938E7300120E45 /* Fire.sks in Resources */,
 				A860F3442789F9DE008DBB6A /* Assets.xcassets in Resources */,
+				A84A0E66279389C100120E45 /* rotation.mp3 in Resources */,
+				A84A0E65279389C100120E45 /* bg_sound.mp3 in Resources */,
+				A84A0E67279389C100120E45 /* move.mp3 in Resources */,
+				A84A0E64279389C100120E45 /* delete.wav in Resources */,
 				A860F3472789F9DE008DBB6A /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,10 +250,17 @@
 			files = (
 				A860F33D2789F9DD008DBB6A /* GameScene.swift in Sources */,
 				A860F33F2789F9DD008DBB6A /* GameViewController.swift in Sources */,
+				A84A0E5927937A9500120E45 /* StopButton.swift in Sources */,
 				A84A0E4C2791C33D00120E45 /* LeftButton.swift in Sources */,
+				A84A0E5B2793831900120E45 /* NextBricks.swift in Sources */,
+				A84A0E55279375E000120E45 /* GameOver.swift in Sources */,
 				A860F3372789F9DD008DBB6A /* AppDelegate.swift in Sources */,
 				A860F34F2789FBF9008DBB6A /* BackGround.swift in Sources */,
+				A84A0E4E27934A9900120E45 /* RightButton.swift in Sources */,
 				A860F357278C34FA008DBB6A /* BrickGenertor.swift in Sources */,
+				A84A0E522793663C00120E45 /* DownButton.swift in Sources */,
+				A84A0E5027935B5500120E45 /* RotationButton.swift in Sources */,
+				A84A0E5D2793892900120E45 /* Sounds.swift in Sources */,
 				A860F3532789FDBD008DBB6A /* Variables.swift in Sources */,
 				A860F3552789FE71008DBB6A /* Brick.swift in Sources */,
 			);

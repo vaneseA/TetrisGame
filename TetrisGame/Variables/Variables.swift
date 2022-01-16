@@ -15,4 +15,13 @@ struct Variables {
     static var dy = 2
     static let gab = 1
     static var startPoint = CGPoint()
+    static var brickArrays = Array<CGPoint>()
+    static var brickNode = Array<SKSpriteNode>()
+    static var blockedArray = Array<SKSpriteNode>()
+    static var isPause = false
+    static var nodeGroup = [[SKSpriteNode]]()
+    static var newBrickArrays = [Brick.Bricks]()
+    static let row = 10
+    static let col = 20
+    
 }
