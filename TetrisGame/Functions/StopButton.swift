@@ -12,7 +12,7 @@ class StopButton {
     let btn = SKSpriteNode()
     init() {
         btn.texture = SKTexture(imageNamed: "stop_btn1")
-        btn.size = CGSize(width: 50, height: 50)
+        btn.size = CGSize(width: 30, height: 30)
         btn.name = "stop"
         let point1 = Int(Variables.scene.frame.width) / 2
         let point2 = Int(Variables.scene.frame.width) - 50

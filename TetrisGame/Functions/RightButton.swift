@@ -12,7 +12,7 @@ class RightButton {
     let btn = SKSpriteNode()
     init() {
         btn.texture = SKTexture(imageNamed: "right_btn1")
-        btn.size = CGSize(width: 50, height: 50)
+        btn.size = CGSize(width: 30, height: 30)
         btn.name = "right"
 //        btn.zPosition = 1 //머지 이거 뺐는데 잘댐 레프트버튼에는 없음
         btn.position = CGPoint(x: Int(Variables.scene.frame.width) - 50, y: -Int(Variables.scene.frame.height) + 50)

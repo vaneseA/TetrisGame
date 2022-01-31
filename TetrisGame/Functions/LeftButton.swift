@@ -12,7 +12,7 @@ class LeftButton {
     let btn = SKSpriteNode()
     init() {
         btn.texture = SKTexture(imageNamed: "left_btn1")
-        btn.size = CGSize(width: 50, height: 50)
+        btn.size = CGSize(width: 30, height: 30)
         btn.name = "left"
         btn.position = CGPoint(x: 50, y: -Int(Variables.scene.frame.height) + 50)
         Variables.scene.addChild(btn)

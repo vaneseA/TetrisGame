@@ -41,7 +41,9 @@ class Sounds{
     }
     func soundPlay(){
         bgSound.play()
-        
+    }
+    func gameOverStop(){
+        bgSound.pause()
     }
 }
 

@@ -22,7 +22,6 @@ class GameOver: SKScene {
                 let transition = SKTransition.moveIn(with: .left, duration: 1)
                     // Present the scene
                 view!.presentScene(scene, transition: transition)
-            
             }
         }
     }
